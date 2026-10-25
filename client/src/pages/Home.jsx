@@ -100,19 +100,14 @@ export default function Home() {
               background: 'var(--bg-card)'
             }} className="animate-pulse-gentle">
               <img
-                src="/hero-girl.svg"
-                alt="Girl illustration with long burgundy hair, closed eyes, pink heart, and botanical leaves"
+                src="/images/dhatri-wellness-girl.png"
+                alt="Dhatri wellness illustration"
                 style={{
                   width: '100%',
                   height: 'auto',
                   aspectRatio: '1 / 1',
                   objectFit: 'contain',
                   display: 'block'
-                }}
-                onError={(e) => {
-                  if (e.currentTarget.src.indexOf('hero-girl.png') === -1) {
-                    e.currentTarget.src = '/hero-girl.png';
-                  }
                 }}
               />
             </div>
